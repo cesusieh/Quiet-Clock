@@ -1,0 +1,11 @@
+{
+  "uuid": "quiet-island@local",
+  "name": "Quiet Island",
+  "description": "Relógio centralizado, música MPRIS e atividade local de IA em três menus independentes.",
+  "shell-version": [
+    "50"
+  ],
+  "settings-schema": "org.gnome.shell.extensions.quiet-island",
+  "version": 20,
+  "version-name": "0.3.0"
+}

@@ -1,0 +1,17 @@
+{
+  "version": "0.2.5",
+  "timer": {
+    "advancesWithoutEvents": true,
+    "keepsRowActor": true,
+    "hashesHidden": true
+  },
+  "rings": {
+    "fixtureRemaining": 64,
+    "otherProvidersUnknown": true
+  },
+  "ringScreenshotUsesFixtureQuota": true,
+  "quotaSource": "Codex account/rateLimits/read primary window",
+  "systemPtyxisUnchanged": true,
+  "exactTabChangesReverted": true,
+  "liveQuotaReceived": true
+}

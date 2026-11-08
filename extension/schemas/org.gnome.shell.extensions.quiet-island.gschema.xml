@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.quiet-island" path="/org/gnome/shell/extensions/quiet-island/">
+    <key name="show-music" type="b"><default>true</default><summary>Mostrar música</summary></key>
+    <key name="show-cover" type="b"><default>true</default><summary>Mostrar capa</summary></key>
+    <key name="show-progress" type="b"><default>true</default><summary>Mostrar progresso da faixa</summary></key>
+    <key name="show-visualizer" type="b"><default>true</default><summary>Mostrar níveis reais de áudio</summary></key>
+    <key name="show-ai" type="b"><default>true</default><summary>Mostrar atividade de IA</summary></key>
+    <key name="show-project" type="b"><default>true</default><summary>Mostrar projeto nos detalhes</summary></key>
+    <key name="notify-completion" type="b"><default>true</default><summary>Avisar quando uma tarefa termina</summary></key>
+    <key name="side-width" type="i"><range min="80" max="320"/><default>240</default><summary>Largura máxima de cada lado em pixels lógicos</summary></key>
+  </schema>
+</schemalist>

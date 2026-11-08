@@ -1,0 +1,82 @@
+/* Quiet Theme 1.2: solid surfaces, native panel, system typography. */
+.quiet-island-strip { spacing: 0; }
+.quiet-island-module-box { spacing: 8px; }
+.quiet-island-title { max-width: 170px; }
+.quiet-island-count { min-width: 12px; font-feature-settings: "tnum"; }
+.quiet-island-clock { font-feature-settings: "tnum"; }
+.quiet-island-clock-button { -natural-hpadding: 12px; }
+.quiet-island-meter { width: 68px; height: 18px; }
+.quiet-island-menu { background-color: #262626; color: white; border-radius: 24px; min-width: 320px; max-width: 420px; padding: 12px; box-shadow: none; }
+.quiet-island-menu .quiet-island-static:insensitive { color: white; }
+.quiet-island-menu .quiet-island-static { color: white; }
+.quiet-island-menu .quiet-island-session-text StLabel,
+.quiet-island-menu .quiet-island-track-info StLabel { color: white; }
+.quiet-island-heading { font-weight: bold; }
+.quiet-island-secondary { color: #DDE1E6; font-size: 0.9em; }
+.quiet-island-menu .quiet-island-session-text .quiet-island-secondary,
+.quiet-island-menu .quiet-island-track-info .quiet-island-secondary { color: #DDE1E6; }
+.quiet-island-track-info { spacing: 8px; }
+.quiet-island-track-title { font-weight: bold; max-width: 260px; }
+.quiet-island-cover { width: 68px; height: 68px; border-radius: 12px; background-color: #393939; }
+.quiet-island-controls { spacing: 12px; }
+.quiet-island-control { background-color: #393939; color: white; border-radius: 12px; padding: 12px; }
+.quiet-island-music-menu .quiet-island-control { padding: 8px; border-radius: 10px; }
+.quiet-island-control:hover, .quiet-island-control:focus { background-color: #484848; }
+.quiet-island-control:focus { box-shadow: inset 0 0 0 2px -st-accent-color; }
+.quiet-island-control:insensitive { color: #6F6F6F; }
+.quiet-island-session-list { spacing: 8px; }
+.quiet-island-session-scroll { max-height: 360px; }
+.quiet-island-session { spacing: 12px; padding: 12px; background-color: #393939; border-radius: 12px; }
+.quiet-island-session-button { border-radius: 12px; }
+.quiet-island-session-button:hover .quiet-island-session { background-color: #484848; }
+.quiet-island-session-button:focus { box-shadow: inset 0 0 0 2px -st-accent-color; }
+.quiet-island-usage-ring { width: 36px; height: 36px; color: -st-accent-color; }
+.quiet-island-usage-value { font-size: 9px; color: white; font-feature-settings: "tnum"; }
+.quiet-island-session-text { spacing: 4px; }
+.quiet-island-ai-icon { -st-icon-style: regular; }
+.quiet-island-ai-stack-icon { background-color: #161616; border-radius: 6px; padding: 3px; }
+.quiet-island-music-menu { width: 416px; min-width: 416px; max-width: 416px; padding: 16px; spacing: 12px; }
+.quiet-island-music-menu .popup-menu-item { padding: 0; spacing: 12px; }
+.quiet-island-music-menu .quiet-island-track-info { spacing: 4px; }
+.quiet-island-music-menu .quiet-island-track-info StLabel { max-width: 336px; }
+.quiet-island-music-menu .quiet-island-controls { spacing: 8px; }
+.quiet-island-progress-time { font-feature-settings: "tnum"; }
+
+/* Match the form's single-column calendar, instead of the native two-column panel. */
+.quiet-island-clock-popup {
+    -arrow-background-color: #262626;
+    -arrow-border-width: 0;
+    -arrow-base: 0;
+    -arrow-rise: 0;
+    -arrow-box-shadow: none;
+    -arrow-border-radius: 24px;
+}
+.quiet-island-clock-menu { width: 320px; min-width: 320px; max-width: 320px; padding: 24px; }
+.quiet-island-clock-content, .quiet-island-clock-content:insensitive { padding: 0; spacing: 0; color: white; }
+.quiet-island-clock-layout { spacing: 16px; }
+.quiet-island-calendar-date { font-weight: bold; color: white; max-width: 332px; }
+.quiet-island-calendar { padding: 0; margin: 0; border: 0; }
+.quiet-island-calendar .calendar-month-header { padding: 0 0 12px; spacing: 8px; }
+.quiet-island-calendar .calendar-month-label { font-weight: normal; background-color: transparent; color: #DDE1E6; padding: 0; box-shadow: none; }
+.quiet-island-calendar .calendar-day { padding: 0; margin: 0; width: 34px; height: 34px; border: 0; border-radius: 99px; background-color: transparent; color: white; font-weight: normal; box-shadow: none; }
+.quiet-island-calendar .calendar-day:hover, .quiet-island-calendar .calendar-day:selected { background-color: #393939; }
+.quiet-island-calendar .calendar-day:focus { box-shadow: inset 0 0 0 2px -st-accent-color; }
+.quiet-island-calendar .calendar-other-month { color: #9E9E9E; }
+.quiet-island-calendar .calendar-day-heading { background-color: transparent; color: #DDE1E6; font-weight: normal; padding: 0; }
+.quiet-island-calendar .pager-button { background-color: transparent; color: white; border-radius: 12px; }
+.quiet-island-calendar .pager-button:hover, .quiet-island-calendar .pager-button:focus { background-color: #393939; }
+.quiet-island-calendar .calendar-day.calendar-today,
+.quiet-island-calendar .calendar-day.calendar-today:selected { background-color: -st-accent-color; color: -st-accent-fg-color; }
+.quiet-island-notifications-heading { spacing: 12px; }
+.quiet-island-clear { background-color: #393939; color: white; border-radius: 12px; padding: 4px 12px; }
+.quiet-island-clear:hover, .quiet-island-clear:focus { background-color: #484848; }
+.quiet-island-clock-notifications { spacing: 8px; }
+.quiet-island-notification-area { min-height: 0; }
+.quiet-island-clock-notification-scroll { min-height: 0; }
+.quiet-island-notification { background-color: #393939; border-radius: 12px; border: 0; box-shadow: none; margin: 0; color: white; max-width: 320px; }
+
+.quiet-island-session-count { font-size: 0.8em; margin-left: 12px; }
+
+.quiet-island-quota { spacing: 7px; padding-bottom: 4px; }
+.quiet-island-quota-title { spacing: 8px; }
+.quiet-island-quota-bar { color: -st-accent-color; }

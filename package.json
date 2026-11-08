@@ -1,0 +1,9 @@
+{
+  "name": "quiet-island",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/model.test.js"
+  }
+}

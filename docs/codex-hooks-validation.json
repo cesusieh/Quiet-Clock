@@ -1,0 +1,61 @@
+{
+  "codexVersion": "0.166.0",
+  "hooks": [
+    {
+      "eventName": "preModelRequest",
+      "enabled": true,
+      "trustStatus": "trusted",
+      "timeoutSec": 3
+    },
+    {
+      "eventName": "preToolUse",
+      "enabled": true,
+      "trustStatus": "trusted",
+      "timeoutSec": 3
+    },
+    {
+      "eventName": "permissionRequest",
+      "enabled": true,
+      "trustStatus": "trusted",
+      "timeoutSec": 3
+    },
+    {
+      "eventName": "postToolUse",
+      "enabled": true,
+      "trustStatus": "trusted",
+      "timeoutSec": 3
+    },
+    {
+      "eventName": "sessionStart",
+      "enabled": true,
+      "trustStatus": "trusted",
+      "timeoutSec": 3
+    },
+    {
+      "eventName": "sessionEnd",
+      "enabled": true,
+      "trustStatus": "trusted",
+      "timeoutSec": 3
+    },
+    {
+      "eventName": "userPromptSubmit",
+      "enabled": true,
+      "trustStatus": "trusted",
+      "timeoutSec": 3
+    },
+    {
+      "eventName": "stop",
+      "enabled": true,
+      "trustStatus": "trusted",
+      "timeoutSec": 3
+    },
+    {
+      "eventName": "interrupt",
+      "enabled": true,
+      "trustStatus": "trusted",
+      "timeoutSec": 3
+    }
+  ],
+  "sourceErrors": 0,
+  "sourceWarnings": 0
+}

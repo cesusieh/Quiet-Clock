@@ -1,0 +1,57 @@
+{
+  "clock": "07:55",
+  "center": 640,
+  "monitorCenter": 640,
+  "nativeCalendar": true,
+  "compactCalendar": true,
+  "musicMenu": true,
+  "aiMenu": true,
+  "sessions": 0,
+  "dashToPanelActive": true,
+  "live": {
+    "sessions": 3,
+    "player": "Faixa de teste",
+    "duration": 120000000,
+    "progress": true,
+    "time": "0:06 / 2:00",
+    "ai": "Aguardando voc\u00ea",
+    "httpArtwork": true
+  },
+  "calendarLayout": {
+    "heading": "Ter\u00e7a-feira, 3 de novembro de 2026",
+    "width": 370,
+    "height": 570,
+    "oneColumn": true,
+    "gridWidth": 320,
+    "leftGap": 23,
+    "rightGap": 23,
+    "nativePanelDetached": true
+  },
+  "musicLayout": {
+    "width": 450,
+    "height": 137
+  },
+  "calendarNavigation": {
+    "next": true,
+    "back": true,
+    "selected": 4,
+    "unpadded": true
+  },
+  "screenshot": "/tmp/quiet-island-compact-test/quiet-island.png",
+  "completionNotificationOnce": true,
+  "fixedCalendarSize": {
+    "width": 370,
+    "height": 570
+  },
+  "notificationActions": {
+    "invoked": true,
+    "removed": true
+  },
+  "emptyModulesHidden": {
+    "musicVisible": false,
+    "aiVisible": false,
+    "center": 640,
+    "monitorCenter": 640
+  },
+  "originalCalendarRestored": true
+}

@@ -1,0 +1,6 @@
+/build/
+/dist/
+/.test-session/
+__pycache__/
+.pytest_cache/
+*.pyc

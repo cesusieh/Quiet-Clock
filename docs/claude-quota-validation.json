@@ -1,0 +1,13 @@
+{
+  "version": "0.2.6",
+  "source": "Claude Code statusLine rate_limits.five_hour",
+  "quotaPipelineTested": true,
+  "nativeTwoProviderRingTested": true,
+  "liveClaudeStatusReceived": false,
+  "liveClaudeQuotaReceived": false,
+  "missingQuotaIsUnknown": true,
+  "configuredStatusLine": true,
+  "accountDataReceivedYet": false,
+  "firstAPIResponseRequired": true,
+  "backedUpUserSettings": true
+}

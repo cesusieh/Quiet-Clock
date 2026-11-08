@@ -1,0 +1,114 @@
+{
+  "version": "0.3.0",
+  "unit_tests": 41,
+  "dbus_tests": 10,
+  "real_codex_context_read": true,
+  "native_gnome": {
+    "clock": "19:24",
+    "center": 640,
+    "monitorCenter": 640,
+    "nativeCalendar": true,
+    "compactCalendar": true,
+    "musicMenu": true,
+    "aiMenu": true,
+    "sessions": 0,
+    "dashToPanelActive": true,
+    "terminalActivation": {
+      "sessionClick": true,
+      "focusedExistingWindow": true,
+      "overviewClosed": true,
+      "staleIdentityRejected": true,
+      "ambiguousWindowsRejected": true
+    },
+    "activityTimer": {
+      "advancesWithoutEvents": true,
+      "keepsRowActor": true,
+      "hashesHidden": true
+    },
+    "usageDisplay": {
+      "quotaBars": [
+        64,
+        75
+      ],
+      "sessionContextRings": [
+        82,
+        91
+      ],
+      "hermesUnknown": true
+    },
+    "live": {
+      "sessions": 3,
+      "player": "Faixa de teste",
+      "duration": 120000000,
+      "progress": true,
+      "time": "0:07 / 2:00",
+      "ai": "Pensando",
+      "httpArtwork": true
+    },
+    "calendarLayout": {
+      "heading": "Terça-feira, 3 de novembro de 2026",
+      "width": 370,
+      "height": 438,
+      "oneColumn": true,
+      "gridWidth": 320,
+      "leftGap": 23,
+      "rightGap": 23,
+      "nativePanelDetached": true
+    },
+    "musicLayout": {
+      "width": 450,
+      "height": 173,
+      "panelHasText": false,
+      "meterVisible": true,
+      "musicIconVisible": false,
+      "controlWidths": [
+        32,
+        32,
+        32
+      ],
+      "coverSize": [
+        68,
+        68
+      ],
+      "controlsBelowArtist": true,
+      "progressWidth": 416,
+      "clippedCover": true
+    },
+    "calendarNavigation": {
+      "next": true,
+      "back": true,
+      "selected": 4,
+      "unpadded": true
+    },
+    "screenshot": "/tmp/quiet-island-context-030/quiet-island.png",
+    "completionNotificationOnce": true,
+    "taskDurationFrozenAfterCompletion": true,
+    "adaptiveCalendarSize": {
+      "width": 370,
+      "height": 521
+    },
+    "notificationActions": {
+      "invoked": true,
+      "removed": true
+    },
+    "notificationOverflow": {
+      "height": 562,
+      "width": 370,
+      "viewport": 141,
+      "content": 1072,
+      "scrollUpper": 1072,
+      "scrollPage": 141
+    },
+    "compactEmptyCalendar": {
+      "height": 438,
+      "gap": 16
+    },
+    "emptyModulesHidden": {
+      "musicVisible": false,
+      "aiVisible": false,
+      "center": 640,
+      "monitorCenter": 640
+    },
+    "originalCalendarRestored": true
+  }
+}

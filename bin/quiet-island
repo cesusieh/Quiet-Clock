@@ -1,0 +1,9 @@
+#!/usr/bin/env python3
+"""Run from this checkout or the installed Quiet Island data directory."""
+import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "bridge"))
+from quiet_island.cli import main
+
+raise SystemExit(main())

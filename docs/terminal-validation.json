@@ -1,0 +1,17 @@
+{
+  "version": "0.2.0",
+  "gnome": 50,
+  "terminalActivation": {
+    "sessionClick": true,
+    "focusedExistingWindow": true,
+    "overviewClosed": true,
+    "staleIdentityRejected": true,
+    "ambiguousWindowsRejected": true
+  },
+  "liveCodexTerminalAssociated": true,
+  "unitAndBusTests": 35,
+  "limits": [
+    "Ptyxis window focus; exact tab selection pending",
+    "Ambiguous windows are rejected"
+  ]
+}

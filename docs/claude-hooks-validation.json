@@ -1,0 +1,16 @@
+{
+  "claudeVersion": "2.1.317",
+  "configuredHooks": 12,
+  "settingsPreserved": true,
+  "backupCreated": true,
+  "idempotentInstall": true,
+  "realCLI": {
+    "isolatedSessionBus": true,
+    "controlInitialized": true,
+    "sessionStartReceived": true,
+    "sessionEndReceived": true,
+    "modelPromptSent": false
+  },
+  "injectedLifecycleValidated": true,
+  "fullLiveConversationPending": true
+}
