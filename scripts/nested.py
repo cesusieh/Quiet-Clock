@@ -337,7 +337,7 @@ def smoke_test(shell, state, player=None):
     if not navigation["next"] or not navigation["back"] or navigation["selected"] != 4 or not navigation["unpadded"]:
         raise RuntimeError(f"Calendar navigation failed: {navigation}")
     result["calendarNavigation"] = navigation
-    # Real captures, clearly distinct from the research HTML diagrams.
+    # Capture the extension running in the isolated GNOME session.
     eval_shell(connection, """(() => {
         const e = globalThis.__quietIslandSmoke.extension;
         e._dateMenu.menu.close();
